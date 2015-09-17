@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:id="@+id/watch"
+            android:layout_marginRight="3dp"
+            android:text="看"
+            android:textColor="@drawable/selector_text"
+            android:background="@drawable/selector"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/draw"
+            android:text="画"
+            android:textColor="@drawable/selector_text"
+            android:background="@drawable/selector"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

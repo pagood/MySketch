@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Sketch</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_pad">PadActivity</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_location_test">locationTest</string>
+</resources>
